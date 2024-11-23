@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
-    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,9 +16,6 @@
         <mxCell id="lRWhCo-7vjn6Tmu-6gVj-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="170" y="560" width="140" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="lRWhCo-7vjn6Tmu-6gVj-1" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
-          <mxGeometry x="500" y="140" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="lRWhCo-7vjn6Tmu-6gVj-2" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
           <mxGeometry x="310" y="480" width="40" height="40" as="geometry" />
         </mxCell>
@@ -27,13 +24,6 @@
         </mxCell>
         <mxCell id="lRWhCo-7vjn6Tmu-6gVj-4" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
           <mxGeometry x="680" y="480" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lRWhCo-7vjn6Tmu-6gVj-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lRWhCo-7vjn6Tmu-6gVj-69" target="lRWhCo-7vjn6Tmu-6gVj-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="380" as="sourcePoint" />
-            <mxPoint x="535" y="180" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="lRWhCo-7vjn6Tmu-6gVj-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lRWhCo-7vjn6Tmu-6gVj-67" target="lRWhCo-7vjn6Tmu-6gVj-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -89,8 +79,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lRWhCo-7vjn6Tmu-6gVj-21" value="◆やりたいこと&lt;div&gt;プライベートVLAN環境での動作確認&lt;/div&gt;&lt;div&gt;L2スイッチ配下は無線APを想定しているが、&lt;/div&gt;&lt;div&gt;CMLでは利用できないためL2スイッチで代用&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
-          <mxGeometry x="160" y="160" width="270" height="70" as="geometry" />
+        <mxCell id="lRWhCo-7vjn6Tmu-6gVj-21" value="◆やりたいこと&lt;div&gt;・プライベートVLAN環境での動作確認&lt;/div&gt;&lt;div&gt;・L2スイッチ配下は無線APを想定しているが、&lt;/div&gt;&lt;div&gt;CMLでは利用できないためL2スイッチで代用&lt;/div&gt;&lt;div&gt;・通常のVLANとの併用&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="30" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lRWhCo-7vjn6Tmu-6gVj-22" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" parent="1" vertex="1">
           <mxGeometry x="195" y="692" width="40" height="28" as="geometry" />
@@ -313,6 +303,12 @@
         </mxCell>
         <mxCell id="pTShBIBReQmCYpDQSjOf-12" value="&lt;div&gt;VLAN：100,300&lt;/div&gt;&lt;div&gt;プライマリVLAN：200&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="445" y="480" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pTShBIBReQmCYpDQSjOf-16" value=".100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="485" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTShBIBReQmCYpDQSjOf-17" value=".200" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="485" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
