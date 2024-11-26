@@ -419,8 +419,8 @@
         <mxCell id="CElFfMZv1HRF0qKUjart-41" value="プライベートVLAN&lt;div&gt;&lt;div&gt;隔離VLAN：201&lt;/div&gt;&lt;div&gt;192.168.2.0/24&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="415" y="30" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CElFfMZv1HRF0qKUjart-43" value="VLAN：100&lt;div&gt;192.168.1.0/24&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="30" width="100" height="40" as="geometry" />
+        <mxCell id="CElFfMZv1HRF0qKUjart-43" value="&lt;div&gt;プライベートVLAN&lt;/div&gt;&lt;div&gt;コミュニティVLAN：101&lt;/div&gt;&lt;div&gt;192.168.1.0/24&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="30" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CElFfMZv1HRF0qKUjart-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CElFfMZv1HRF0qKUjart-54" target="CElFfMZv1HRF0qKUjart-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -567,8 +567,8 @@
         <mxCell id="CElFfMZv1HRF0qKUjart-115" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" vertex="1" parent="1">
           <mxGeometry x="315" y="-38" width="40" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="CElFfMZv1HRF0qKUjart-116" value="VLAN：100&lt;div&gt;192.168.1.0/24&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="30" width="100" height="40" as="geometry" />
+        <mxCell id="CElFfMZv1HRF0qKUjart-116" value="&lt;div&gt;プライベートVLAN&lt;/div&gt;&lt;div&gt;コミュニティVLAN：101&lt;/div&gt;&lt;div&gt;192.168.1.0/24&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="30" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CElFfMZv1HRF0qKUjart-117" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CElFfMZv1HRF0qKUjart-119" target="CElFfMZv1HRF0qKUjart-114">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
